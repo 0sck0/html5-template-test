@@ -1,0 +1,143 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#gnb .top {
+    border-bottom: solid 1px #dddddd;
+    text-align: right;
+}
+
+#gnb .top ul li {
+    display: inline-block;
+    padding: 5px;
+    border-left: solid 1px #dddddd;
+}
+
+#gnb .top ul li:last-of-type {
+    border-right: solid 1px #dddddd;
+}
+
+#gnb .bottom {
+    display: flex;
+    border-bottom: solid 3px navy;
+}
+
+#gnb .bottom div {
+    flex: 1;
+}
+
+#gnb .bottom div {
+    float: right;
+}
+
+#gnb .bottom .logo_area img {
+    width: 100px;
+}
+
+#gnb .bottom .menu_area ul {
+    display: flex;
+}
+
+#gnb .bottom .menu_area ul li {
+    flex: 1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#header_image {
+    max-height: 150px;
+    overflow: hidden;
+}
+
+#header_image img {
+    width: 100%;
+    max-height: initial;
+    margin-top: -30%;
+}
+
+#main .contents_header {
+    border-bottom: solid 3px #eeeeee;
+}
+
+#main .contents_header h2 {
+    color: navy;
+}
+
+#main .step {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main .step ul {
+    margin: 30px;
+    display: flex;
+}
+
+#main .step ul li {
+    border: solid 1px #eeeeee;
+    display: inline-block;
+    padding: 10px;
+    flex: 1;
+}
+
+#main .step ul li:last-of-type {
+    background-color: navy;
+    color: white;
+}
+
+#main .main_contents {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main .main_contents img {
+    width: 70px;
+}
+
+#main .main_contents h2 {
+    font-weight: normal;
+}
+
+#main .main_contents h2 .bold {
+    font-weight: bold;
+}
+
+#main .main_contents p {
+    font-size: 0.7em;
+}
+
+#main .main_contents .btn {
+    margin-top: 30px;
+    background-color: navy;
+    color: white;
+    padding: 13px 80px;
+    border: solid 1px #eeeeee;
+}
+
+#footer {
+    border-top: solid 1px #eeeeee;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+}
+
+#footer .copyrights {
+    font-size: 0.8em;
+}
+
+#footer .footer_logo {
+    float: right;
+    width: 100px;
+}

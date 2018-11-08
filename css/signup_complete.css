@@ -33,10 +33,6 @@ a {
     flex: 1;
 }
 
-#gnb .bottom div {
-    float: right;
-}
-
 #gnb .bottom .logo_area img {
     width: 100px;
 }
@@ -131,13 +127,19 @@ a {
     margin: 0;
     height: 100px;
     width: 100%;
+    display: flex;
 }
 
 #footer .copyrights {
     font-size: 0.8em;
+    flex: 2;
 }
 
-#footer .footer_logo {
-    float: right;
-    width: 100px;
+#footer .copyrights .bold {
+    font-weight: bold;
+}
+
+#footer .footer_logo img {
+    width: 150px;
+    flex: 1;
 }
